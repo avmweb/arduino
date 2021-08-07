@@ -130,8 +130,8 @@ void dn(int n)
   digitalWrite(CS, HIGH);
 }
 
-
-void remote_read() {
+//Remout control
+void remote_read() {  
 unsigned int timer_value;
   if(nec_state != 0){
     timer_value = TCNT1;                         // Store Timer1 value
